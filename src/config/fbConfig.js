@@ -11,6 +11,7 @@ import 'firebase/auth'
     storageBucket: "lukasplan-3e0a1.appspot.com",
     messagingSenderId: "565988510617"
   };
+  
   firebase.initializeApp(config);
   firebase.firestore().settings({ timestampsInSnapshots: true });
 
